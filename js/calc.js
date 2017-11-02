@@ -30,11 +30,12 @@ buttonClear.addEventListener('click', function(event){
 //   })
 // }
 // }
-//button equals
-// var answer = document.getElementById('equals');
-// answer.addEventListener('click',function(event){
-//   console.log(finalAnswer);
-// })
+
+// button equals
+var answer = document.getElementById('equals');
+answer.addEventListener('click',function(event){
+  document.getElementById('screen').innerHTML = "="
+})
 
 // //button screen
 // var finalAnswer = getElementById('screen');
